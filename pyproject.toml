@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nd-tool"
-version = "1.0.0"
+version = "1.0.1"
 description = "A simple terminal script to diagnose network issues. Checks for connection problems, poor speeds, and basic security risks using standard Python."
 authors = [
   { name = "Terabase Studios", email = "terabasestudios@gmail.com" }

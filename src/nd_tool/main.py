@@ -695,7 +695,7 @@ def main():
     if COLOR_ENABLED and IS_WINDOWS:
         _enable_windows_ansi()
 
-    print(colorize("Running network diagnostic test suite...", "bold") + "\n")
+    print(colorize("Running network diagnostics...", "bold") + "\n")
 
     connectivity_steps = [
         ("Local IP address", check_local_ip, CONNECTIVITY),
