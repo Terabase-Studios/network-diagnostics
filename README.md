@@ -22,7 +22,7 @@ A simple terminal script to diagnose network issues. Checks for connection probl
 
 ## Setup & Usage
 
-Install locally:
+### Install:
 
 ```bash
 git clone https://github.com/Terabase-Studios/nd_tool.git
@@ -30,8 +30,13 @@ cd nd_tool
 pip install .
 
 ```
+or
+```bash
+pip install nt-tool
 
-Run tests:
+```
+
+### Run tests:
 
 ```bash
 nt          # Full test suite
