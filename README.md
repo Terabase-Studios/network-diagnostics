@@ -1,4 +1,4 @@
-# Network Diagnostics Tool (`nt-tool`)
+# Network Diagnostics Tool (`nd-tool`)
 
 A simple terminal script to diagnose network issues. Checks for connection problems, poor speeds, and basic security risks using standard Python.
 
@@ -32,15 +32,15 @@ pip install .
 ```
 or
 ```bash
-pip install nt-tool
+pip install nd-tool
 
 ```
 
 ### Run tests:
 
 ```bash
-nt          # Full test suite
-nt --quick  # Fast connection checks only
+nd          # Full test suite
+nd --quick  # Fast connection checks only
 
 ```
 
